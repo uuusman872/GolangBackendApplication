@@ -1,0 +1,61 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+testGo
+__debug_bin*
+
+# Go workspace / build
+bin/
+dist/
+build/
+vendor/
+*.coverprofile
+coverage.out
+coverage.html
+*.prof
+*.pprof
+
+# Dependencies (keep go.mod / go.sum)
+# vendor/ is ignored above; uncomment next line if you commit vendor
+# !vendor/
+
+# Databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc local artifacts
+*.vsix
+*.log
+tmp/
+temp/
+testing/
